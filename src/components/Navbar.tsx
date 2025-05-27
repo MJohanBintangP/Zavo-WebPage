@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import zavo from '../assets/logo.svg';
-import ENlogo from '../assets/ENlogo.svg';
+import ENlogo from '../assets/enLogo.svg';
 import * as Phospor from '@phosphor-icons/react';
 // import { Link } from 'react-router-dom';
 
