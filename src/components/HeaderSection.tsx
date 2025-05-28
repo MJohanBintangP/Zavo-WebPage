@@ -1,10 +1,10 @@
 import ZavoLogo from '../assets/zavo.svg';
 import iPhoneHeader from '../assets/iPhoneHeader.svg';
 
-function HeaderSection() {
+export default function HeaderSection() {
   return (
     <>
-      <div className="pt-6 md:pt-10 lg:pt-20 relative mb-60">
+      <div className="pt-6 md:pt-10 lg:pt-20 relative mb-20 md:mb-40 lg:mb-60">
         <div className="flex flex-col items-start gap-8">
           <h1 className="text-white text-4xl font-bold">
             With ZAVO, Finding a Job That
@@ -20,12 +20,12 @@ function HeaderSection() {
           </a>
         </div>
 
-        <div className="flex items-center gap-5 mt-20 md:mt-40 lg:mt-40">
+        <div className="flex items-center gap-5 mt-20 md:mt-30 lg:mt-40">
           <img src={ZavoLogo} alt="ZavoLogo" className="w-6" />
           <p className="text-white text-sm lg:text-md max-w-[200px] md:max-w-[200px] lg:max-w-[350px]">ZAVO is a solution for job seekers from all backgrounds. It's free, easy to use, and reliable.</p>
         </div>
 
-        <img className="absolute bottom-110 right-2.5 md:right-10 md:top-60 lg:right-20 lg:top-45 z-0 w-[260px] md:w-[400px] lg:w-[600px]" src={iPhoneHeader} alt="iPhoneHeader" />
+        <img className="absolute bottom-115 right-2.5 md:right-10 md:top-65 lg:right-20 lg:top-45 z-0 w-[260px] md:w-[400px] lg:w-[600px]" src={iPhoneHeader} alt="iPhoneHeader" />
 
         <div className="bg-[#060170] w-full rounded-4xl mt-60 md:mt-12 flex flex-col items-center justify-center gap-12 py-12 px-6 md:px-20 relative z-10">
           <h1 className="text-white text-2xl md:text-3xl font-bold text-center">
@@ -50,5 +50,3 @@ function HeaderSection() {
     </>
   );
 }
-
-export default HeaderSection;
