@@ -41,7 +41,7 @@ const Navbar = () => {
             EN
           </div>
           <a href="" rel="noopener noreferrer">
-            <button className="hidden lg:flex cursor-pointer rounded-full bg-[#060170] text-sm text-white px-6 py-3 font-medium">Coming soon</button>
+            <button className="hidden lg:flex cursor-pointer hover:scale-105 transition-transform rounded-full bg-[#060170] text-sm text-white px-6 py-3 font-medium">Coming soon</button>
           </a>
         </div>
       </div>

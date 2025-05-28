@@ -1,6 +1,7 @@
 import Navbar from './components/Navbar';
 import HeaderSection from './components/HeaderSection';
 import Section1 from './components/Section1';
+import Section2 from './components/Section2';
 
 function App() {
   return (
@@ -9,6 +10,7 @@ function App() {
         <Navbar />
         <HeaderSection />
         <Section1 />
+        <Section2 />
       </div>
     </>
   );

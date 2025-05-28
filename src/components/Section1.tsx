@@ -33,7 +33,9 @@ export default function Section1() {
             ZAVO is designed for those who need a quick solution. We know how hard it is to find a job, especially when you have limited time. That's why we have introduced the “Daily Job Update” feature that shows you the latest jobs based
             on your location, field, and expertise.
           </p>
-          <button className="font-medium rounded-xl bg-[#060170] text-white px-5 py-3 w-fit cursor-pointer text-sm">Coming Soon</button>
+          <a href="">
+            <button className="font-medium rounded-xl bg-[#060170] text-white px-5 py-3 w-fit cursor-pointer hover:scale-105 transition-transform text-sm">Coming Soon</button>
+          </a>
         </div>
       </div>
     </>

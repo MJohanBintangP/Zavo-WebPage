@@ -16,7 +16,7 @@ export default function HeaderSection() {
             <br /> and according to your skills.
           </p>
           <a href="">
-            <button className="cursor-pointer bg-white py-2 px-6 rounded-xl font-medium items-center">Coming Soon</button>
+            <button className="cursor-pointer hover:scale-105 transition-transform bg-white py-2 px-6 rounded-xl font-medium items-center">Coming Soon</button>
           </a>
         </div>
 
