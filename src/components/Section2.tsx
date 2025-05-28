@@ -4,7 +4,7 @@ import * as Phospor from '@phosphor-icons/react';
 export default function Section2() {
   return (
     <>
-      <div className="relative bg-white/8 w-full h-[1250px] md:h-[650px] mb-60 rounded-3xl md:rounded-[50px] overflow-hidden">
+      <div className="relative bg-white/8 w-full h-[1250px] md:h-[650px] mb-30 md:mb-40 lg:mb-60 rounded-3xl md:rounded-[50px] overflow-hidden">
         <img className="w-[180px] md:w-[280px] lg:w-[300px] absolute left-1/2 translate-x-[-50%] translate-y-250 md:translate-y-70 lg:translate-y-60" src={iPhoneSection2} alt="iPhoneSection2" />
         <img className="w-[150px] md:w-[280px] lg:w-[300px] absolute -right-2.5 md:-right-15 translate-x-[-50%] -translate-y-60 md:-translate-y-120 lg:-translate-y-130" src={iPhoneSection2} alt="iPhoneSection2" />
         <div className="text-white flex flex-col gap-4 relative left-10 top-30 md:left-12 md:top-20 lg:left-20 lg:top-20">
