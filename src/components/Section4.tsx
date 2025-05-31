@@ -5,7 +5,7 @@ export default function Section4() {
   return (
     <>
       <div className="mb-30 md:mb-40 lg:mb-60">
-        <div className="px-10 md:px-20 lg:px-0 flex items-center justify-center bg-white/8 w-full h-[700px] md:h-[700px] lg:h-[600px] mb-60 rounded-3xl md:rounded-[50px] overflow-hidden">
+        <div className="px-10 md:px-20 lg:px-0 flex items-center justify-center bg-white/8 w-full h-[700px] md:h-[700px] lg:h-[600px] rounded-3xl md:rounded-[50px] overflow-hidden">
           <div className="flex flex-col lg:flex-row items-center justify-center">
             <img className="w-[600px] md:w-[500px] lg:w-[700px]" src={iPhoneSection4} alt="iPhoneSection4" />
             <div className="flex flex-col text-white mt-10 lg:mt-0">

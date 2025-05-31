@@ -2,9 +2,9 @@ import type { FC } from 'react';
 import * as Phosphor from '@phosphor-icons/react';
 import ZavoLogo from '../assets/logo.svg';
 
-const FooterBottom: FC = () => {
+const Footer: FC = () => {
   return (
-    <footer className="bg-black px-10 md:px-12 lg:px-20 pt-16 text-white ">
+    <footer className="bg-black px-10 md:px-12 lg:px-20 pt-16 text-white relative">
       <div className="flex flex-col lg:flex-row gap-10 lg:gap-25 mb-16 ">
         {/* Logo & Description */}
         <div className="flex flex-col gap-4 max-w-xs">
@@ -71,4 +71,4 @@ const FooterColumn: FC<FooterColumnProps> = ({ title, links }) => (
   </div>
 );
 
-export default FooterBottom;
+export default Footer;

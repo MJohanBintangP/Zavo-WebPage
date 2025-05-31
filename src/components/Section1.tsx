@@ -4,7 +4,7 @@ import * as Phospor from '@phosphor-icons/react';
 export default function Section1() {
   return (
     <>
-      <div className="flex flex-col lg:flex-row mb-30 md:mb-60 gap-15 md:gap-30 items-center justify-center">
+      <div className="flex flex-col lg:flex-row mb-20 md:mb-40 lg:mb-60 gap-15 md:gap-30 items-center justify-center">
         <div className="bg-white/2 w-[270px] h-[330px] md:w-[550px] md:h-[400px] rounded-3xl shadow-[0px_0px_20px_15px_rgba(255,255,255,0.02)]">
           <div className="flex flex-col relative top-4 left-4 md:top-8 md:left-8">
             <div className="flex gap-3 md:gap-6 items-center mb-3">
