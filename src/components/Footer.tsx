@@ -38,7 +38,7 @@ const Footer: FC = () => {
 
       {/* Footer Bottom Info */}
       <div className="flex flex-col md:flex-row justify-between items-start md:items-center text-xs text-[#A5A5A5] gap-2 py-6">
-        <p>© 2023 ZAVO. All rights reserved.</p>
+        <p>© 2025 ZAVO. All rights reserved.</p>
         <div className="flex gap-3 md:gap-4">
           <a href="" className="hover:underline">
             Privacy Policy
